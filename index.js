@@ -1,0 +1,1 @@
+for (let i = 1; i <= 50; i++) ((i % 3) == 0 && (i % 5) == 0) ? console.log(`${i} FizzBuzz`) : ((i % 3) == 0 ? console.log(`${i} Fizz`) : ((i % 5) == 0 ? console.log(`${i} Buzz`) : ''))
